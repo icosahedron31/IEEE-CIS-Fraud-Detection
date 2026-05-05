@@ -26,4 +26,4 @@ feature engineering-ის შემდეგ გავფილტრე ის
 mlflow-ზე თითოეული run-ის შემდეგ ვლოგავდი, სხვადასხვა მახასიათებელს: train_auc, val_auc, f1, precision, recall, fraud_probსაშუალო fraud-ებში და non_fraud-ებში. ასევე ისეთ არტეფაქტებს როგორებიცაა, roc curve, prc curve, confusion matrix და მინიჭებული ალბათობების განაწილება.  საბოლოოდ არჩეულ მოდელს non_fraud_prob_mean ჰქონდა ძალიან დაბალი (მიახლოებით 0) და fraud_prob_mean საკმაოდ მაღალი (0.75). 
 mlflow tracking: https://dagshub.com/icosahedron31/IEEE-CIS-Fraud-Detection.mlflow/#/
 საუკეთესო მოდელი: https://dagshub.com/icosahedron31/IEEE-CIS-Fraud-Detection.mlflow/#/models/XGBoost_fraud_detection
-public score: 0.897, private score: 0.926
+private score: 0.897, public score: 0.926
